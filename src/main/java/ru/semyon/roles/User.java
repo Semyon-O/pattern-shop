@@ -3,6 +3,13 @@ import static ru.semyon.roles.Config.*;
 
 public class User {
 
+    ///
+    /// Единый класс пользователя, можем в дальнейшем расширить его новыми ролями
+    /// Принцип LSP — Liskov Substitution Principle, можем заменить спокойно заапкаститься к User
+    /// Наследники User полностью совместимы с базовым классом.
+    ///
+
+
     private String name;
     private String surname;
     private String lastName;
